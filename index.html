@@ -1,49 +1,140 @@
 <!doctype html>
 	<head>
-
 		<meta charset="utf-8">
-
-		<title>Título</title>
-
+		<title>| HEDBANGER |</title>
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" href="style.css">
-
+		<link rel="stylesheet" href="form.css">
 		<meta name="description" content="">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="cleartype" content="on">
 		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
+		<script src="//use.typekit.net/fom2fev.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
 	</head>
-
 	<body>
 		<!--[if lt IE 9]>
 			<p class="chromeframe">Estás usando una versión <strong>vieja</strong> de tu explorador. Por favor <a href="http://browsehappy.com/" target="_blank"> actualiza tu explorador</a> para tener una experiencia completa.</p>
 		<![endif]-->
-		<div class="container">
-
-			<header>
-
-				<h1>
-					<a href="#">
-						<img src="logo.png" alt="" />
+		<nav id="cd-vertical-nav" >
+			<ul>
+		        <li>
+		            <a href="#section1" data-number="1">
+		                <span class="cd-dot"></span>
+		                <span class="cd-label">Intro</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#section2" data-number="2">
+		                <span class="cd-dot"></span>
+		                <span class="cd-label">¿Qué es Hedbanger?</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#section3" data-number="3">
+		                <span class="cd-dot"></span>
+		                <span class="cd-label">Barra + Barba</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#section4" data-number="4">
+		                <span class="cd-dot"></span>
+		                <span class="cd-label">Redes sociales</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#section5" data-number="5">
+		                <span class="cd-dot"></span>
+		                <span class="cd-label">Contáctanos</span>
+		            </a>
+		        </li>
+		        <li>
+		            <a href="#section6" data-number="6">
+		                <span class="cd-dot"></span>
+		                <span class="cd-label">Creditos</span>
+		            </a>
+		        </li>
+			</ul>
+		</nav>
+		<h1>
+			<a href="#">
+				<img src="images/logo-hedbanger-textura.png" alt="Hedbanger" title="Hedbanger" />
+			</a>
+		</h1>
+		<section id="section1" class="[ intro ]">
+			<a class=" [ scroll-down ]" href="#section2"><img src="images/arrow-down.png" /></a>
+		</section><!-- [ intro ] -->
+		<section id="section2" class="[ que-es-hedbanger ]">
+			<article class="[ width ]">
+				<img class="[ columna xmall-8 ] [ block ] [ center ]" src="images/que-es-hedbanger.png" alt="Hedbanger es descubrir nuevos hermanos de por vida, concebido y ejecutado completamente por y para hombres.">
+			</article>
+		</section>
+		<section id="section3" class="[ barba-barra ]">
+			<article class="[ width ]">
+				<h2 class="[ text-center ] [ columna xmall-10 ] [ center ]">BARRA & BARBA</h2>
+				<p class="[ columna xmall-10 ] [ center ]">En cada corte de cabello o barba, nuestros clientes reciben un whiskey o una cerveza de cortesía; pero no solo vienen por un corte, somos más que un Whiskey bar y mas que una barbería, aquí los viejos amigos  se encuentran y nuevas hermandades se forjan. </p>
+			</article>
+		</section>
+		<section id="section4" class="[ redes-sociales ]">
+			<article class="[ width ]">
+				<h2 class="[ text-center ]">Redes sociales</h2>
+				<div class="[ text-center ]">
+					<a href="" class="[ inline-block vertical-align-middle ]" target="_blank">
+						<img src="images/fs.png" alt="">
+					</a><a href="" class="[ inline-block vertical-align-middle ]" target="_blank">
+						<img src="images/fb.png" alt="">
+					</a><a href="" class="[ inline-block vertical-align-middle ]" target="_blank">
+						<img src="images/tw.png" alt="">
+					</a><a href="" class="[ inline-block vertical-align-middle ]" target="_blank">
+						<img src="images/tu.png" alt="">
 					</a>
-				</h1>
-
-			</header>
-
-			<div class="main">
-
-			</div><!-- main -->
-
-
-		</div><!-- container -->
-
-		<footer>
-
-		</footer>
-
+				</div>
+			</article>
+		</section>
+		<section id="section5" class="[ contacto ]">
+			<article class="[ width ]">
+				<form id="nl-form" class="nl-form">
+					Hola mi nombre es <input type="text" value="" placeholder="tu nombre" />, mi correo es <input type="text" value="" placeholder="tu correo" /> y quería decirles que
+					<input id="tu-idea" type="text" value="" placeholder="tu idea" />
+					<br/>
+					<br/>
+					<select>
+						<option value="1" selected>Quiero</option>
+						<option value="2">No quiero</option>
+					</select>
+					 recibir el newsletter de Hedbanger.
+					<div class="nl-submit-wrap">
+						<button class="nl-submit" type="submit">Enviar</button>
+					</div>
+					<div class="nl-overlay"></div>
+				</form>
+			</article>
+		</section>
+		<section id="section6" class="[ credito ] [ background-black ]">
+			<article class="[ clearfix ] [ width ]">
+				<div class="[ columna xmall-6 ]">
+					<img class="[ block margin-bottom-big ] [ center ] [ columna xmall-10 ]" src="images/logo-we-saw-satan.png" alt="">
+					<p class="[ text-center ]">
+						Satan is in all the common and boring jobs.<br/>
+						We saw it and we don’t want it.<br/>
+						We don’t need it.<br/>
+						We saw people being lambs,<br/>
+						we are the wolves.
+					</p>
+				</div>
+				<div class="[ columna xmall-6 ]">
+					<img class="[ block ] [ center ] [ columna xmall-10 ]" src="images/logo-we-saw-satan.png" alt="">
+				</div>
+			</article>
+		</section>
 	</body>
-
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.min.js"></script>
+	<script type="text/javascript" src="js/nlform.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script>
+		var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+	</script>
 </html>
 
